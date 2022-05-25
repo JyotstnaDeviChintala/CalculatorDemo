@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataValidations>
+  <ImageValidations>
+    <ValidationReference Name="CalculatorDemo_New Command Node_aButton" />
+    <ValidationReference Name="CalculatorDemo_New Command Node_decimalButton">
+      <BaseLine Name="Decimal BaseLIne" Resolution="1536 X 864" WindowsTheme="aero" ImageName="CalculatorDemo_New Command Node_decimalButton_Decimal BaseLIne_1536 X 864_aero.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Red="0" Green="0" Blue="0" Pixel="0" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node_octolButton">
+      <BaseLine Name="Oct BaseLIne" Resolution="1536 X 864" WindowsTheme="aero" ImageName="CalculatorDemo_New Command Node_octolButton_Oct BaseLIne_1536 X 864_aero.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Red="0" Green="0" Blue="0" Pixel="0" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node_bButton">
+      <BaseLine Name="B BaseLine" Resolution="1536 X 864" WindowsTheme="aero" ImageName="CalculatorDemo_New Command Node_bButton_B BaseLine_1536 X 864_aero.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Similarity="100" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node2_aButton">
+      <BaseLine Name="A Button BaseLine" Resolution="1536 X 864" WindowsTheme="aero" ImageName="CalculatorDemo_New Command Node2_aButton_A Button BaseLine_1536 X 864_aero.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Similarity="100" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node2_bButton">
+      <BaseLine Name="B Button BaseLine" Resolution="1536 X 864" WindowsTheme="aero" ImageName="CalculatorDemo_New Command Node2_bButton_B Button BaseLine_1536 X 864_aero.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Similarity="100" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node2_decimalButton">
+      <BaseLine Name="Decimal ImageBase" Resolution="1536 X 864" WindowsTheme="aero" ImageName="CalculatorDemo_New Command Node2_decimalButton_Decimal ImageBase_1536 X 864_aero.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Red="0" Green="0" Blue="0" Pixel="0" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node_num7Button">
+      <BaseLine Name="Num7BaseLine" Resolution="1536 X 864" WindowsTheme="Custom" ImageName="CalculatorDemo_New Command Node_num7Button_Num7BaseLine_1536 X 864_Custom.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Similarity="100" />
+      </BaseLine>
+      <BaseLine Name="Num7BaseLineTolerance" Resolution="1536 X 864" WindowsTheme="Custom" ImageName="CalculatorDemo_New Command Node_num7Button_Num7BaseLineTolerance_1536 X 864_Custom.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Red="45" Green="50" Blue="58" Pixel="5" />
+      </BaseLine>
+    </ValidationReference>
+    <ValidationReference Name="CalculatorDemo_New Command Node_num4Button">
+      <BaseLine Name="Num4BaseLine" Resolution="1536 X 864" WindowsTheme="Custom" ImageName="CalculatorDemo_New Command Node_num4Button_Num4BaseLine_1536 X 864_Custom.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Similarity="100" />
+      </BaseLine>
+      <BaseLine Name="Num4BaseLineTolerance" Resolution="1536 X 864" WindowsTheme="Custom" ImageName="CalculatorDemo_New Command Node_num4Button_Num4BaseLineTolerance_1536 X 864_Custom.jpg" ImageLocation="%SUITTESTS%CalculatorDemo\DataValidations\ImageValidations">
+        <FullImageCriteria Red="45" Green="56" Blue="58" Pixel="5" />
+      </BaseLine>
+    </ValidationReference>
+  </ImageValidations>
+</DataValidations>

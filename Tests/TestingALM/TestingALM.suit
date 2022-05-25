@@ -1,0 +1,15 @@
+﻿<TestSuiteNode MappingFile="$SUITTESTS\CalculatorDemo\Tests\TestingALM\TestingALM.suit" UserFriendlyName="TestingALM" SmartUITestFileVersion="22.00.01.0001" ApplicationName="CalculatorDemo" ParentMappingFile="$SUITTESTS\CalculatorDemo\Tests\CalculatorDemo.suit" TestSuiteName="TestingALM" TestSuiteDescription="TestingALM">
+  <Nodes>
+    <TestSetNode MappingFile="$SUITTESTS\CalculatorDemo\Tests\TestingALM\New Test Set14.xml" />
+  </Nodes>
+  <TMTConfigData>Azure DevOps</TMTConfigData>
+  <AzureProjectName />
+  <AzureProjectURL />
+  <TestRailProjectName />
+  <TestRailProjectURL />
+  <TMT_PAT />
+  <TMT_UserName />
+  <TMT_APIKey />
+  <EnableTMT>false</EnableTMT>
+  <TestScripIdModified>false</TestScripIdModified>
+</TestSuiteNode>

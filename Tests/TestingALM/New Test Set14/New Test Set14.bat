@@ -1,0 +1,1 @@
+cmd /c ""%SUIT_HOME%Bin\Release\HxGnTest.exe" "%SUITTESTS%CalculatorDemo\Tests\TestingALM\New Test Set14\New Test Set14.sbt""

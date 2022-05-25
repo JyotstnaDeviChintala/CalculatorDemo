@@ -1,0 +1,373 @@
+﻿<AppContextNode ApplicationType="Windows" FrameworkType="UIAPrime" Name="CalculatorDemo" MappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" ParentMappingFile="" SUITSchemaVersion="1.0" AddIns="">
+  <ProjectInfo>
+    <ProjectConfig />
+    <ApplicationProcesses>
+      <Process Name="Calculator" Primary="True" />
+    </ApplicationProcesses>
+    <Properties>
+      <Property Name="Executable Path" TypeOfEntry="Manual" Value="C:\Windows\System32\calc.exe" />
+      <Property Name="Build Type" TypeOfEntry="Manual" Value="" />
+      <Property Name="Product Version" TypeOfEntry="Manual" Value="" />
+      <Property Name="Error Log File Path(s)" TypeOfEntry="Manual" Value="" />
+    </Properties>
+    <RecoveryScenarios>
+      <AppErrors />
+      <PopupDialogs />
+    </RecoveryScenarios>
+    <CleanUpInfo>
+      <CustomCleanUpSettings CleanUpCustomSetting="Replace Default SUITCleanUp" IsCleanUpEnabled="False">
+        <CodeSnippetNode>
+          <Line></Line>
+        </CodeSnippetNode>
+      </CustomCleanUpSettings>
+      <DefaultCleanUpSettings RunCleanUpIncaseOf="Failure" IsCleanTopParent="False" />
+    </CleanUpInfo>
+    <AdditionalSettings>
+      <Setting Name="ProcessSyncType" Value="ThreadSync" />
+      <Setting Name="EnableMinimizeHierarchy" Value="False" />
+    </AdditionalSettings>
+    <ExternalProjectUsageInfo />
+    <ControlIdentificationRule />
+  </ProjectInfo>
+  <Nodes>
+    <CommandNode UserFriendlyName="New Command Node">
+      <Nodes>
+        <ControlNode UserFriendlyName="Calculator1" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\Calculator1.png" ImageFileName="Calculator1" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Window" TestControlName="Calculator" TechnologyName="UIAutomation" FriendlyName="Calculator" ClassName="ApplicationFrameWindow" InputkeyName="CALCULATOR1" ControlDescription="Calculator Window" ControlPriority="Primary">
+          <Nodes>
+            <ControlNode UserFriendlyName="Calculator" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\Calculator.png" ImageFileName="Calculator" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Window" TestControlName="Calculator" TechnologyName="UIAutomation" FriendlyName="Calculator" ClassName="Windows.UI.Core.CoreWindow" InputkeyName="CALCULATOR" ControlDescription="Calculator Window" ControlPriority="Primary">
+              <Nodes>
+                <ControlNode UserFriendlyName="Group" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\Group.png" ImageFileName="Group" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TechnologyName="UIAutomation" FriendlyName="" ClassName="LandmarkTarget" InputkeyName="GROUP" ControlDescription="LandmarkTarget Group" ControlPriority="Primary">
+                  <Nodes>
+                    <ControlNode UserFriendlyName="ProgrammerOperators" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\ProgrammerOperators.png" ImageFileName="ProgrammerOperators" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Radix selection" TechnologyName="UIAutomation" FriendlyName="ProgrammerOperators" ClassName="NamedContainerAutomationPeer" InputkeyName="PROGRAMMEROPERATORS" ControlDescription="ProgrammerOperators Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="decimalButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\decimalButton.png" ImageFileName="decimalButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="RadioButton" TestControlName="Decimal 0" TechnologyName="UIAutomation" FriendlyName="decimalButton" ClassName="RadioButton" InputkeyName="DECIMALBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="decimalButton RadioButton" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="decimalButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="RadioButton" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="RadioButton" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="octolButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\octolButton.png" ImageFileName="octolButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="RadioButton" TestControlName="Octal 0 " TechnologyName="UIAutomation" FriendlyName="octolButton" ClassName="RadioButton" InputkeyName="OCTOLBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="octolButton RadioButton" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="octolButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="RadioButton" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="RadioButton" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="AutomationId" Operator="EqualTo" Value="ProgrammerOperators" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                    <ControlNode UserFriendlyName="NumberPad" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\NumberPad.png" ImageFileName="NumberPad" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Number pad" TechnologyName="UIAutomation" FriendlyName="NumberPad" ClassName="NamedContainerAutomationPeer" InputkeyName="NUMBERPAD" ControlDescription="NumberPad Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="aButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\aButton.png" ImageFileName="aButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="A" TechnologyName="UIAutomation" FriendlyName="aButton" ClassName="Button" InputkeyName="ABUTTON" IsPerformActionCodeGenerated="true" ControlDescription="aButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="aButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="bButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\bButton.png" ImageFileName="bButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="B" TechnologyName="UIAutomation" FriendlyName="bButton" ClassName="Button" InputkeyName="BBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="bButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="bButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="cButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\cButton.png" ImageFileName="cButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="C" TechnologyName="UIAutomation" FriendlyName="cButton" ClassName="Button" InputkeyName="CBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="cButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="cButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num7Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\num7Button.png" ImageFileName="num7Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Seven" TechnologyName="UIAutomation" FriendlyName="num7Button" ClassName="Button" InputkeyName="NUM7BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num7Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num7Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num4Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\num4Button.png" ImageFileName="num4Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Four" TechnologyName="UIAutomation" FriendlyName="num4Button" ClassName="Button" InputkeyName="NUM4BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num4Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num4Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num1Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\num1Button.png" ImageFileName="num1Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="One" TechnologyName="UIAutomation" FriendlyName="num1Button" ClassName="Button" InputkeyName="NUM1BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num1Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num1Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="AutomationId" Operator="EqualTo" Value="NumberPad" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                    <ControlNode UserFriendlyName="Standard operators" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\Standard operators.png" ImageFileName="Standard operators" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Standard operators" TechnologyName="UIAutomation" FriendlyName="Standard operators" ClassName="NamedContainerAutomationPeer" InputkeyName="STANDARDOPERATORS" ControlDescription="Standard operators Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="minusButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\minusButton.png" ImageFileName="minusButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Minus" TechnologyName="UIAutomation" FriendlyName="minusButton" ClassName="Button" InputkeyName="MINUSBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="minusButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="minusButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="plusButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node\plusButton.png" ImageFileName="plusButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Plus" TechnologyName="UIAutomation" FriendlyName="plusButton" ClassName="Button" InputkeyName="PLUSBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="plusButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="plusButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="Name" Operator="EqualTo" Value="Standard operators" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                  </Nodes>
+                  <SearchProperties>
+                    <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                    <Property Name="ClassName" Operator="EqualTo" Value="LandmarkTarget" />
+                  </SearchProperties>
+                  <ProjectConfiguration />
+                </ControlNode>
+              </Nodes>
+              <SearchProperties>
+                <Property Name="Name" Operator="EqualTo" Value="Calculator" />
+                <Property Name="ControlType" Operator="EqualTo" Value="Window" />
+                <Property Name="ClassName" Operator="EqualTo" Value="Windows.UI.Core.CoreWindow" />
+              </SearchProperties>
+              <ProjectConfiguration />
+            </ControlNode>
+          </Nodes>
+          <SearchProperties>
+            <Property Name="Name" Operator="EqualTo" Value="Calculator" />
+            <Property Name="ControlType" Operator="EqualTo" Value="Window" />
+            <Property Name="ClassName" Operator="EqualTo" Value="ApplicationFrameWindow" />
+          </SearchProperties>
+          <ProjectConfiguration />
+        </ControlNode>
+      </Nodes>
+    </CommandNode>
+    <CommandNode UserFriendlyName="New Command Node1" />
+    <CommandNode UserFriendlyName="New Command Node2">
+      <Nodes>
+        <ControlNode UserFriendlyName="Calculator1" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\Calculator1.png" ImageFileName="Calculator1" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Window" TestControlName="Calculator" TechnologyName="UIAutomation" FriendlyName="Calculator" ClassName="ApplicationFrameWindow" InputkeyName="CALCULATOR1" ControlDescription="Calculator Window" ControlPriority="Primary">
+          <Nodes>
+            <ControlNode UserFriendlyName="Calculator" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\Calculator.png" ImageFileName="Calculator" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Window" TestControlName="Calculator" TechnologyName="UIAutomation" FriendlyName="Calculator" ClassName="Windows.UI.Core.CoreWindow" InputkeyName="CALCULATOR" ControlDescription="Calculator Window" ControlPriority="Primary">
+              <Nodes>
+                <ControlNode UserFriendlyName="Group" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\Group.png" ImageFileName="Group" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TechnologyName="UIAutomation" FriendlyName="" ClassName="LandmarkTarget" InputkeyName="GROUP" ControlDescription="LandmarkTarget Group" ControlPriority="Primary">
+                  <Nodes>
+                    <ControlNode UserFriendlyName="ProgrammerOperators" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\ProgrammerOperators.png" ImageFileName="ProgrammerOperators" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Radix selection" TechnologyName="UIAutomation" FriendlyName="ProgrammerOperators" ClassName="NamedContainerAutomationPeer" InputkeyName="PROGRAMMEROPERATORS" ControlDescription="ProgrammerOperators Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="decimalButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\decimalButton.png" ImageFileName="decimalButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="RadioButton" TestControlName="Decimal 0" TechnologyName="UIAutomation" FriendlyName="decimalButton" ClassName="RadioButton" InputkeyName="DECIMALBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="decimalButton RadioButton" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="decimalButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="RadioButton" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="RadioButton" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="AutomationId" Operator="EqualTo" Value="ProgrammerOperators" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                    <ControlNode UserFriendlyName="NumberPad" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\NumberPad.png" ImageFileName="NumberPad" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Number pad" TechnologyName="UIAutomation" FriendlyName="NumberPad" ClassName="NamedContainerAutomationPeer" InputkeyName="NUMBERPAD" ControlDescription="NumberPad Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="aButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\aButton.png" ImageFileName="aButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="A" TechnologyName="UIAutomation" FriendlyName="aButton" ClassName="Button" InputkeyName="ABUTTON" IsPerformActionCodeGenerated="true" ControlDescription="aButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="aButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="bButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\bButton.png" ImageFileName="bButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="B" TechnologyName="UIAutomation" FriendlyName="bButton" ClassName="Button" InputkeyName="BBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="bButton Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="bButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num1Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\num1Button.png" ImageFileName="num1Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="One" TechnologyName="UIAutomation" FriendlyName="num1Button" ClassName="Button" InputkeyName="NUM1BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num1Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num1Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num2Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node2\num2Button.png" ImageFileName="num2Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Two" TechnologyName="UIAutomation" FriendlyName="num2Button" ClassName="Button" InputkeyName="NUM2BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num2Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num2Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="AutomationId" Operator="EqualTo" Value="NumberPad" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                  </Nodes>
+                  <SearchProperties>
+                    <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                    <Property Name="ClassName" Operator="EqualTo" Value="LandmarkTarget" />
+                  </SearchProperties>
+                  <ProjectConfiguration />
+                </ControlNode>
+              </Nodes>
+              <SearchProperties>
+                <Property Name="Name" Operator="EqualTo" Value="Calculator" />
+                <Property Name="ControlType" Operator="EqualTo" Value="Window" />
+                <Property Name="ClassName" Operator="EqualTo" Value="Windows.UI.Core.CoreWindow" />
+              </SearchProperties>
+              <ProjectConfiguration />
+            </ControlNode>
+          </Nodes>
+          <SearchProperties>
+            <Property Name="Name" Operator="EqualTo" Value="Calculator" />
+            <Property Name="ControlType" Operator="EqualTo" Value="Window" />
+            <Property Name="ClassName" Operator="EqualTo" Value="ApplicationFrameWindow" />
+          </SearchProperties>
+          <ProjectConfiguration />
+        </ControlNode>
+      </Nodes>
+    </CommandNode>
+    <CommandNode UserFriendlyName="New Command Node3">
+      <Nodes>
+        <ControlNode UserFriendlyName="Calculator1" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\Calculator1.png" ImageFileName="Calculator1" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Window" TestControlName="Calculator" TechnologyName="UIAutomation" FriendlyName="Calculator" ClassName="ApplicationFrameWindow" InputkeyName="CALCULATOR1" ControlDescription="Calculator Window" ControlPriority="Primary">
+          <Nodes>
+            <ControlNode UserFriendlyName="Calculator" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\Calculator.png" ImageFileName="Calculator" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Window" TestControlName="Calculator" TechnologyName="UIAutomation" FriendlyName="Calculator" ClassName="Windows.UI.Core.CoreWindow" InputkeyName="CALCULATOR" ControlDescription="Calculator Window" ControlPriority="Primary">
+              <Nodes>
+                <ControlNode UserFriendlyName="Group" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\Group.png" ImageFileName="Group" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TechnologyName="UIAutomation" FriendlyName="" ClassName="LandmarkTarget" InputkeyName="GROUP" ControlDescription="LandmarkTarget Group" ControlPriority="Primary">
+                  <Nodes>
+                    <ControlNode UserFriendlyName="NumberPad" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\NumberPad.png" ImageFileName="NumberPad" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Number pad" TechnologyName="UIAutomation" FriendlyName="NumberPad" ClassName="NamedContainerAutomationPeer" InputkeyName="NUMBERPAD" ControlDescription="NumberPad Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="num8Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\num8Button.png" ImageFileName="num8Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Eight" TechnologyName="UIAutomation" FriendlyName="num8Button" ClassName="Button" InputkeyName="NUM8BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num8Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num8Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num5Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\num5Button.png" ImageFileName="num5Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Five" TechnologyName="UIAutomation" FriendlyName="num5Button" ClassName="Button" InputkeyName="NUM5BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num5Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num5Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num9Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\num9Button.png" ImageFileName="num9Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Nine" TechnologyName="UIAutomation" FriendlyName="num9Button" ClassName="Button" InputkeyName="NUM9BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num9Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num9Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num3Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\num3Button.png" ImageFileName="num3Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="Three" TechnologyName="UIAutomation" FriendlyName="num3Button" ClassName="Button" InputkeyName="NUM3BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num3Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num3Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                        <ControlNode UserFriendlyName="num1Button" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\num1Button.png" ImageFileName="num1Button" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Button" TestControlName="One" TechnologyName="UIAutomation" FriendlyName="num1Button" ClassName="Button" InputkeyName="NUM1BUTTON" IsPerformActionCodeGenerated="true" ControlDescription="num1Button Button" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="num1Button" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="Button" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="Button" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="AutomationId" Operator="EqualTo" Value="NumberPad" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                    <ControlNode UserFriendlyName="ProgrammerOperators" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\ProgrammerOperators.png" ImageFileName="ProgrammerOperators" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="Group" TestControlName="Radix selection" TechnologyName="UIAutomation" FriendlyName="ProgrammerOperators" ClassName="NamedContainerAutomationPeer" InputkeyName="PROGRAMMEROPERATORS" ControlDescription="ProgrammerOperators Group" ControlPriority="Primary">
+                      <Nodes>
+                        <ControlNode UserFriendlyName="decimalButton" FrameworkType="UIAPrime" ConsiderColumnHeaderValues="false" ImageFilePath="$SUITTESTS\CalculatorDemo\Images\New Command Node3\decimalButton.png" ImageFileName="decimalButton" ImageFileOverriden="true" ControlClass="System.Windows.Automation.AutomationElement+AutomationElementInformation" ControlType="RadioButton" TestControlName="Decimal 0" TechnologyName="UIAutomation" FriendlyName="decimalButton" ClassName="RadioButton" InputkeyName="DECIMALBUTTON" IsPerformActionCodeGenerated="true" ControlDescription="decimalButton RadioButton" ControlPriority="Primary">
+                          <SearchProperties>
+                            <Property Name="AutomationId" Operator="EqualTo" Value="decimalButton" />
+                            <Property Name="ControlType" Operator="EqualTo" Value="RadioButton" />
+                            <Property Name="ClassName" Operator="EqualTo" Value="RadioButton" />
+                          </SearchProperties>
+                          <ProjectConfiguration />
+                        </ControlNode>
+                      </Nodes>
+                      <SearchProperties>
+                        <Property Name="AutomationId" Operator="EqualTo" Value="ProgrammerOperators" />
+                        <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                        <Property Name="ClassName" Operator="EqualTo" Value="NamedContainerAutomationPeer" />
+                      </SearchProperties>
+                      <ProjectConfiguration />
+                    </ControlNode>
+                  </Nodes>
+                  <SearchProperties>
+                    <Property Name="ControlType" Operator="EqualTo" Value="Group" />
+                    <Property Name="ClassName" Operator="EqualTo" Value="LandmarkTarget" />
+                  </SearchProperties>
+                  <ProjectConfiguration />
+                </ControlNode>
+              </Nodes>
+              <SearchProperties>
+                <Property Name="Name" Operator="EqualTo" Value="Calculator" />
+                <Property Name="ControlType" Operator="EqualTo" Value="Window" />
+                <Property Name="ClassName" Operator="EqualTo" Value="Windows.UI.Core.CoreWindow" />
+              </SearchProperties>
+              <ProjectConfiguration />
+            </ControlNode>
+          </Nodes>
+          <SearchProperties>
+            <Property Name="Name" Operator="EqualTo" Value="Calculator" />
+            <Property Name="ControlType" Operator="EqualTo" Value="Window" />
+            <Property Name="ClassName" Operator="EqualTo" Value="ApplicationFrameWindow" />
+          </SearchProperties>
+          <ProjectConfiguration />
+        </ControlNode>
+      </Nodes>
+    </CommandNode>
+    <CommandNode UserFriendlyName="New Command Node4" />
+  </Nodes>
+</AppContextNode>

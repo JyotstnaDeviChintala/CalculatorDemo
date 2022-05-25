@@ -1,0 +1,19 @@
+﻿<TestScriptNode MappingFile="$SUITTESTS\CalculatorDemo\Tests\TestingALM\New Test Set14\New Test Script1.xml" UserFriendlyName="New Test Script1" Description="New Test Script1" TestScriptId="0" TestScriptName="New Test Script1">
+  <Nodes>
+    <HLFAction UserFriendlyName="New Command Node3" ParentNodeMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" AppContextMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit">
+      <Nodes>
+        <TestActionNode UserFriendlyName="num8Button" EnumName="NUM8BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
+          <PlaybackSettings />
+        </TestActionNode>
+        <TestActionNode UserFriendlyName="num5Button" EnumName="NUM5BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
+          <PlaybackSettings />
+        </TestActionNode>
+      </Nodes>
+      <PlaybackSettings />
+    </HLFAction>
+  </Nodes>
+  <ProjectConfiguration />
+  <TestPlayBackSettings ThinkTimeMultiplier="0" />
+  <IsTMTScript>true</IsTMTScript>
+  <CleanUpSettings />
+</TestScriptNode>

@@ -1,0 +1,1 @@
+cmd /c ""%SUIT_HOME%Bin\Release\HxGnTest.exe" "%SUITTESTS%CalculatorDemo\Tests\TMT_Integrated_CalculatorDemo.sbt""

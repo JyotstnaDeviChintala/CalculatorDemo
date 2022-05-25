@@ -1,0 +1,51 @@
+﻿<TestScriptNode MappingFile="$SUITTESTS\CalculatorDemo\Tests\TestingALM\New Test Set14\New Test Script.xml" UserFriendlyName="New Test Script" Description="New Test Script" TestScriptId="0" TestScriptName="New Test Script">
+  <Nodes>
+    <InvokeAppHLFActionNode UserFriendlyName="Invoke Application" AppContextMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" ApplicationPath="" ApplicationName="CalculatorDemo">
+      <PlaybackSettings />
+    </InvokeAppHLFActionNode>
+    <HLFAction UserFriendlyName="New Command Node3" ParentNodeMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" AppContextMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit">
+      <Nodes>
+        <TestActionNode UserFriendlyName="num8Button" EnumName="NUM8BUTTON" NoOfUnits="10" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
+          <PlaybackSettings />
+        </TestActionNode>
+        <TestActionNode UserFriendlyName="num9Button" EnumName="NUM9BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
+          <PlaybackSettings />
+        </TestActionNode>
+        <TestActionNode UserFriendlyName="num1Button" EnumName="NUM1BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
+          <PlaybackSettings />
+        </TestActionNode>
+        <TestActionNode UserFriendlyName="num3Button" EnumName="NUM3BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
+          <PlaybackSettings />
+        </TestActionNode>
+      </Nodes>
+      <PlaybackSettings />
+    </HLFAction>
+    <SpecialActionNode UserFriendlyName="CaptureScreenshot" AppContextMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" ActionDescriptor="CaptureScreenshot - TestVariable[pic]" ArgValue="TestVariable[pic]">
+      <PlaybackSettings />
+    </SpecialActionNode>
+    <CodeSnippetNode UserFriendlyName="Code Snippet">
+      <PlaybackSettings />
+      <CodeLines>
+        <Line>System.Windows.Forms.MessageBox.Show(TestVariable[pic]);</Line>
+      </CodeLines>
+    </CodeSnippetNode>
+  </Nodes>
+  <TestVariables>
+    <Variable DataType="String" VariableName="gh" DefaultValue="hal" />
+    <Variable DataType="String" VariableName="pic" DefaultValue="fsdfsdfs" />
+  </TestVariables>
+  <ProjectConfiguration>
+    <NameSpaces>
+      <NameSpace Value="Hexagon.SmartUITest.UIAPrime.SUITControl;" />
+      <NameSpace Value="System.Windows.Automation;" />
+    </NameSpaces>
+    <References>
+      <Reference Path="%SUIT_HOME%Bin\Release\Hexagon.SmartUITest.UIAPrime.SUITControl.dll" />
+      <Reference Path="%programfiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\UIAutomationClient.dll" />
+      <Reference Path="%programfiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\UIAutomationTypes.dll" />
+    </References>
+  </ProjectConfiguration>
+  <TestPlayBackSettings ThinkTimeMultiplier="0" />
+  <IsTMTScript>true</IsTMTScript>
+  <CleanUpSettings />
+</TestScriptNode>

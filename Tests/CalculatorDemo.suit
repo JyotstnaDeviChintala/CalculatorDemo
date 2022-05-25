@@ -1,0 +1,15 @@
+﻿<TestContextNode MappingFile="$SUITTESTS\CalculatorDemo\Tests\CalculatorDemo.suit" UserFriendlyName="CalculatorDemo" SmartUITestFileVersion="20.00.00.0031" ApplicationName="CalculatorDemo" AssociatedMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" ApplicationNodeFolderPath="$SUITTESTS\CalculatorDemo">
+  <Nodes>
+    <TestSuiteNode MappingFile="$SUITTESTS\CalculatorDemo\Tests\TestingALM\TestingALM.suit" />
+  </Nodes>
+  <TMTConfigData>Azure DevOps</TMTConfigData>
+  <AzureProjectName>Xalt QA</AzureProjectName>
+  <AzureProjectURL>https://dev.azure.com/HexagonXalt/</AzureProjectURL>
+  <TestRailProjectName>SUIt_INH</TestRailProjectName>
+  <TestRailProjectURL>https://tmttestrailchecking.testrail.io</TestRailProjectURL>
+  <TMT_PAT>PAT</TMT_PAT>
+  <TMT_UserName>gurindaguntakeerthana73@gmail.com</TMT_UserName>
+  <TMT_APIKey>PAT</TMT_APIKey>
+  <EnableTMT>true</EnableTMT>
+  <TestScripIdModified>false</TestScripIdModified>
+</TestContextNode>
