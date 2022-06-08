@@ -16,8 +16,21 @@
       </Nodes>
       <PlaybackSettings />
     </HLFAction>
+    <CodeSnippetNode UserFriendlyName="Code Snippet">
+      <PlaybackSettings />
+    </CodeSnippetNode>
   </Nodes>
-  <ProjectConfiguration />
+  <ProjectConfiguration>
+    <NameSpaces>
+      <NameSpace Value="Hexagon.SmartUITest.UIAPrime.SUITControl;" />
+      <NameSpace Value="System.Windows.Automation;" />
+    </NameSpaces>
+    <References>
+      <Reference Path="%SUIT_HOME%Bin\Release\Hexagon.SmartUITest.UIAPrime.SUITControl.dll" />
+      <Reference Path="%programfiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\UIAutomationClient.dll" />
+      <Reference Path="%programfiles(x86)%\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\UIAutomationTypes.dll" />
+    </References>
+  </ProjectConfiguration>
   <TestPlayBackSettings ThinkTimeMultiplier="0" />
   <IsTMTScript>true</IsTMTScript>
   <CleanUpSettings />
