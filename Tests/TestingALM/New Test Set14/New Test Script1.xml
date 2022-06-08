@@ -5,9 +5,6 @@
         <TestActionNode UserFriendlyName="num8Button" EnumName="NUM8BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
           <PlaybackSettings />
         </TestActionNode>
-        <TestActionNode UserFriendlyName="num5Button" EnumName="NUM5BUTTON" ActionType="Click" InputValue="null" ReferenceNodeType="ContextNode">
-          <PlaybackSettings />
-        </TestActionNode>
       </Nodes>
       <PlaybackSettings />
     </HLFAction>
