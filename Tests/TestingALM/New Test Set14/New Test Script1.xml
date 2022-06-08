@@ -8,6 +8,13 @@
       </Nodes>
       <PlaybackSettings />
     </HLFAction>
+    <HLFAction UserFriendlyName="New Command Node" ParentNodeMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit" AppContextMappingFile="$SUITTESTS\CalculatorDemo\CalculatorDemo.suit">
+      <Nodes>
+        <TestActionNode UserFriendlyName="ProgrammerOperators" EnumName="PROGRAMMEROPERATORS" ActionType="Click" InputValue="null">
+          <PlaybackSettings />
+        </TestActionNode>
+      </Nodes>
+    </HLFAction>
   </Nodes>
   <ProjectConfiguration />
   <TestPlayBackSettings ThinkTimeMultiplier="0" />
